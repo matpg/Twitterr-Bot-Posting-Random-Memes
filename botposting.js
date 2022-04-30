@@ -1,7 +1,9 @@
+const { exit } = require('process');
+
 const fs = require('fs'),
     path = require('path'),
     Twit = require('twit'),
-    config = require(path.join(__dirname, './config/config.js'));
+    config = require(path.join(__dirname, 'config.js'));
 
 const T = new Twit(config);
 
@@ -44,7 +46,7 @@ function tweetRandomImage() {
                         console.log('tweeting the image...');
 
                         const statsArray = [
-                            "'PRE-SALE 4/20 LIMITED 🚀🚀🚀 \n visit buffdogecoin.com for more info!'",
+                            "PRE-SALE 4/20 LIMITED 🚀🚀🚀 \n visit buffdogecoin.com for more info!",
                             "Thanks to the #BuffDoge Community! ❤️ \n Remember visiting buffdogecoin.com for more info!",
                             "New Official Community 🔥🔥🔥 visit https://discord.gg/ANVZcedxTK to be part of the force 🥵!",
                         ];
@@ -70,8 +72,7 @@ function tweetRandomImage() {
             });
         }
     });
+    
 }
 
-setInterval(function () {
-    tweetRandomImage();
-}, 10000);
+tweetRandomImage();
