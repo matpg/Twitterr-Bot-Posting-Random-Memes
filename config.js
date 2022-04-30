@@ -2,7 +2,7 @@ const path = require('path')
 const dotenv = require('dotenv')
 require('dotenv').config();
 // Load config
-dotenv.config({ path: 'config.env' })
+dotenv.config({ path: '.env' })
 
 //exports the keys
 module.exports = {
