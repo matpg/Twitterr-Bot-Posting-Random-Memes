@@ -44,12 +44,12 @@ function tweetRandomImage() {
                         console.log('tweeting the image...');
 
                         const statsArray = [
-                            "'PRE-SALE 4/20 LIMITED 🚀🚀🚀 \n visit buffdogecoin.com for more info!'",
+                            "PRE-SALE 4/20 LIMITED 🚀🚀🚀 \n visit buffdogecoin.com for more info!",
                             "Thanks to the #BuffDoge Community! ❤️ \n Remember visiting buffdogecoin.com for more info!",
                             "New Official Community 🔥🔥🔥 visit https://discord.gg/ANVZcedxTK to be part of the force 🥵!",
                         ];
 
-                        const textToTweet = statsArray[Math.floor(Math.random()*statsArray.length)]
+                        const textToTweet = statsArray[2]
 
 
                         T.post('statuses/update', {
