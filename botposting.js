@@ -46,7 +46,7 @@ function tweetRandomImage() {
                         const statsArray = [
                             "PRE-SALE 4/20 LIMITED 🚀🚀🚀 \n visit buffdogecoin.com for more info!",
                             "Thanks to the #BuffDoge Community! ❤️ \n Remember visiting buffdogecoin.com for more info!",
-                            "New Official Community 🔥🔥🔥 visit https://discord.gg/ANVZcedxTK to be part of the force 🥵!",
+                            "Join or new Official Discord Community 🔥🔥🔥 visit https://discord.gg/ANVZcedxTK to be part of the force 🥵 and receive incredible new tokens!",
                         ];
 
                         const textToTweet = statsArray[2]
