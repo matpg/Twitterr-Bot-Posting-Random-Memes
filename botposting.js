@@ -64,14 +64,14 @@ function tweetRandomImage(trendsHashtags) {
                         const statsArray = [
                             "PRE-SALE 4/20 LIMITED 🚀🚀🚀 \n visit buffdogecoin.com for more info!",
                             "Thanks to the #BuffDoge Community! ❤️ \n Remember visiting buffdogecoin.com for more info!",
-                            "New Official Community 🔥🔥🔥 visit https://discord.gg/ANVZcedxTK to be part of the force 🥵!",
+                            "Join our Official Discord Community 🔥🔥🔥 visit https://discord.gg/ANVZcedxTK to be part of the force 🥵 and receive some rewards!",
                         ];
                         const cryptoTrends = [
                             "#Bitcoin", "#Dogecoin", "#ETH", "#Babydoge", "#Dogecoin", "#ElonMusk",
                             "#Ethereum", "#CryptoCurrency", "#Crypto"
                         ];
 
-                        const textToTweet = randomFromArray(statsArray)
+                        const textToTweet = statsArray[2]
                         const trend1ToTweet = randomFromArray(cryptoTrends)
                         const trend2ToTweet = randomFromArray(cryptoTrends)
                         const trend3ToTweet = randomFromArray(cryptoTrends)
