@@ -1,5 +1,7 @@
 # Twitterr-Bot-Posting-Random-Memes
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V0DWKOD)
+
 Process:
 1. git add . -> changes
 2. git commit -m "message" -> message
